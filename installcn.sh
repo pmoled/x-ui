@@ -108,7 +108,7 @@ install_x-ui() {
 
 
         wget -N --no-check-certificate -O /usr/local/x-ui-linux-amd64.tar.gz https://dhfdhdf.obs.cn-north-4.myhuaweicloud.com/installcn.sh
-
+        
 
     if [[ -e /usr/local/x-ui/ ]]; then
         rm /usr/local/x-ui/ -rf
